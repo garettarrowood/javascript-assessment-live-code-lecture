@@ -1,11 +1,11 @@
 'use strict';
 
 function Question(query, author) {
-  this.id = this.constructor.all.length
+  this.id = Question.all.length
   this.query = query
   this.author = author
   this.answers = []
-  this.constructor.all.push(this)
+  Question.all.push(this)
 }
 
 Question.prototype.questionEl = function() {
