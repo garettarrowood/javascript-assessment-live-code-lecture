@@ -1,12 +1,12 @@
 # Quora-esque domain
 
-Three models - Question, Answer and Vote.
+Three models - Question & Answer
 
 ## Topics
 
 + Class vs Instance methods in ES6
 + Object Relationships
-+ DOM manipulation with jQuery or vanilla JS
++ DOM manipulation with jQuery
 + Event Listeners
 
 To run your html:
@@ -15,7 +15,7 @@ To run your html:
 
 ## Deliverables
 
-Build out the following methods on the `Answer` class (Use ES6 syntax)
+Build out the following functions on the `Answer` class (Use ES6 syntax)
 
 + `Answer.all`
   + should return all of the answer objects in an array
