@@ -40,6 +40,6 @@ Build out the following methods on the `AnswersController` class (Use ES6 syntax
   + selects the appropriate question element for the answer
   + renders the new answer element into the correct `ul`
   + assigns upvoteFormListener for voting
-+ `AnswersController.prototype.upvoteFormListener()`
++ `AnswersController.prototype.upvoteFormListener(answer)`
   + selects correct answer form and adds an eventlistener to trigger a function on form submit
   + function should grab the current voteCount and update the DOM with it one vote higher
